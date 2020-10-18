@@ -1,15 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/tailwind.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
+    <div className="h-full bg-gray-900 flex justify-center items-center p-8">
+      <header className="text-3xl lg:text-6xl text-center text-gray-400">
+       
           Nothing to see here.
-        </p>
+  
       
       </header>
     </div>
