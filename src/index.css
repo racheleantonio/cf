@@ -3,17 +3,28 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-    font-family: Gilmer, serif;
+  font-family: Gilmer, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fadeIn {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @font-face {
-  font-family: 'Gilmer';
-  src: local('Gilmer'), url(./styles/fonts/Gilmer\ Bold.otf) format('truetype');
+  font-family: "Gilmer";
+  src: local("Gilmer"), url(./styles/fonts/Gilmer\ Bold.otf) format("truetype");
 }
