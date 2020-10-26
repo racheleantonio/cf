@@ -14,19 +14,31 @@ body {
 }
 .fadeIn2 {
   animation: fadeInAnimation ease 3.15s;
-  animation-delay: 0.15s;
+  animation-delay: 0.12s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fadeIn3 {
-  animation: fadeInAnimation ease 3.30s;
-  animation-delay: 0.30s;
+  animation: fadeInAnimation ease 3.24s;
+  animation-delay: 0.24s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .fadeIn4 {
-  animation: fadeInAnimation ease 3.45s;
-  animation-delay: 0.45s;
+  animation: fadeInAnimation ease 3.36s;
+  animation-delay: 0.36s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.fadeIn5 {
+  animation: fadeInAnimation ease 3.48s;
+  animation-delay: 0.48s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.fadeIn6 {
+  animation: fadeInAnimation ease 3.60s;
+  animation-delay: 0.60s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
