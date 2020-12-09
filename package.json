@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-parallax-tilt": "^1.4.67",
     "react-scripts": "3.4.3",
     "tailwindcss": "^1.9.4",
     "typescript": "~3.7.2"
