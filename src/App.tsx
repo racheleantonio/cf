@@ -15,10 +15,10 @@ function App() {
   return (
     <div className="h-full w-full bg-gray-900 flex justify-center items-center p-8">
       <div>
-        <header className=" fadeIn1 text-4xl lg:text-5xl text-center text-white opacity-75">
+        <header className="zoomIn1 text-4xl lg:text-5xl text-center text-white opacity-75">
           Rachele
         </header>
-        <header className=" fadeIn1 text-4xl lg:text-5xl text-center text-white opacity-75">
+        <header className="zoomIn1 text-4xl lg:text-5xl text-center text-white opacity-75">
           Antonio
         </header>
         <div className="mt-6 flex flex-wrap w-full justify-center items-center">
