@@ -8,9 +8,6 @@ import { ReactComponent as CV } from "./assets/full/cv.svg";
 import { ReactComponent as Skype } from "./assets/full/skype.svg";
 import { ReactComponent as RA } from "./assets/RA.svg";
 
-// @ts-ignore
-import div from "react-parallax-div";
-
 function App() {
   return (
     <div className="h-full w-full bg-gray-900 flex justify-center items-center p-8">
