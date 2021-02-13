@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d81d98dd.chunk.css",
+    "main.js": "/static/js/main.27d0d095.chunk.js",
+    "main.js.map": "/static/js/main.27d0d095.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
+    "static/js/2.91c3e3df.chunk.js": "/static/js/2.91c3e3df.chunk.js",
+    "static/js/2.91c3e3df.chunk.js.map": "/static/js/2.91c3e3df.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.00c0bb99f085e31b25c20009578116ec.js": "/precache-manifest.00c0bb99f085e31b25c20009578116ec.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d81d98dd.chunk.css.map": "/static/css/main.d81d98dd.chunk.css.map",
+    "static/js/2.91c3e3df.chunk.js.LICENSE.txt": "/static/js/2.91c3e3df.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Gilmer Bold.fc515556.otf",
+    "static/media/RA.c440b3aa.svg": "/static/media/RA.c440b3aa.svg",
+    "static/media/cv.8e8cdf64.svg": "/static/media/cv.8e8cdf64.svg",
+    "static/media/github.31f52670.svg": "/static/media/github.31f52670.svg",
+    "static/media/linkedin.d1c53651.svg": "/static/media/linkedin.d1c53651.svg",
+    "static/media/mail.704cef50.svg": "/static/media/mail.704cef50.svg",
+    "static/media/skype.204e29c2.svg": "/static/media/skype.204e29c2.svg",
+    "static/media/twitter.40ea2906.svg": "/static/media/twitter.40ea2906.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce89729d.js",
+    "static/js/2.91c3e3df.chunk.js",
+    "static/css/main.d81d98dd.chunk.css",
+    "static/js/main.27d0d095.chunk.js"
+  ]
+}
