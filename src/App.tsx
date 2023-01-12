@@ -20,10 +20,10 @@ const data = [
 const App = () => (
   <div className="h-full w-full bg-gray-900 flex justify-center items-center p-8">
     <div className="mt-3 mb-8">
-      <header className="text-white opacity-75 zoomIn1 text-5xl tracking-widest  text-center">
+      <header className="text-white opacity-75 zoomIn1 text-5xl tracking-widest select-none text-center">
         Rachele
       </header>
-      <header className="text-white opacity-75 zoomIn2 text-5xl tracking-widest lg:mt-3 text-center">
+      <header className="text-white opacity-75 zoomIn2 text-5xl tracking-widest lg:mt-3 select-none text-center">
         Antonio
       </header>
       <div className="mt-10 grid grid-cols-3 gap-8 ">
