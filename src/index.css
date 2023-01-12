@@ -17,7 +17,7 @@ body,
 
 @font-face {
   font-family: "Gilmer";
-  src: local("Gilmer"), url(./styles/fonts/Gilmer\ Bold.otf) format("truetype");
+  src: local("Gilmer"), url(./assets/Gilmer\ Bold.otf) format("truetype");
 }
 
 body {

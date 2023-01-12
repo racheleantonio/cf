@@ -7,9 +7,6 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "build:tailwind": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
-    "prestart": "npm run build:tailwind",
-    "prebuild": "npm run build:tailwind",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
