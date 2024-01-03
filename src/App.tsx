@@ -12,7 +12,7 @@ const data = [
   { icon: Github, link: "https://github.com/racheleantonio" },
   { icon: Twitter, link: "https://twitter.com/RacheleAntonio_" },
   { icon: Mail, link: "mailto:racheleantonio@outlook.com" },
-  { icon: CV, link: "/cv.pdf" },
+  { icon: CV, link: "./cv.pdf" },
   // { icon: Skype, link: "skype:racheleantonio_2?chat" },
   { icon: Telegram, link: "https://t.me/AntoRack" },
 ];
