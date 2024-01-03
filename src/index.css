@@ -4,7 +4,12 @@
 
 @font-face {
   font-family: "Gilmer";
-  src: local("Gilmer"), url(./assets/GilmerBold.otf) format("truetype");
+  src: local("Gilmer") url(./assets/gilmerbold-webfont.otf)
+      format("embedded-opentype"),
+    url(./assets/gilmerbold-webfont.woff2) format("woff2"),
+    url(./assets/gilmerbold-webfont.woff) format("woff"),
+    url(./assets/gilmerbold-webfont.ttf) format("truetype"),
+    url(./assets/gilmerbold-webfont#gilmer_boldregular) format("svg");
 }
 
 html,
