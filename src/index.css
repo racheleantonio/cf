@@ -3,13 +3,18 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "Gilmer Heavy";
+  src: url(./assets/gilmer_heavy.woff2), format("woff2");
+}
+
+@font-face {
+  font-family: "Gilmer Light";
+  src: url(./assets/gilmer_light.woff2), format("woff2");
+}
+
+@font-face {
   font-family: "Gilmer";
-  src: local("Gilmer") url(./assets/gilmerbold-webfont.otf)
-      format("embedded-opentype"),
-    url(./assets/gilmerbold-webfont.woff2) format("woff2"),
-    url(./assets/gilmerbold-webfont.woff) format("woff"),
-    url(./assets/gilmerbold-webfont.ttf) format("truetype"),
-    url(./assets/gilmerbold-webfont#gilmer_boldregular) format("svg");
+  src: url(./assets/gilmer_regular.woff2), format("woff2");
 }
 
 html,
@@ -36,6 +41,14 @@ body {
   cursor: url(./assets/cursor.svg) 16 16, pointer;
 }
 
+.heavy {
+  font-family: Gilmer Heavy;
+}
+
+.light {
+  font-family: Gilmer Light;
+}
+
 .neu:hover {
   box-shadow: inset 10px 10px 20px #0d1016, inset -10px -10px 20px #273042;
 }
@@ -44,14 +57,17 @@ body {
   fill: white;
 }
 
-.zoomIn1 {
-  animation: zoomInAnimation ease 6s;
+.zoom-in-1 {
+  transform-origin: left center;
+  animation: zoomInAnimation1 cubic-bezier(0.22, 0.68, 0.05, 0.97) 6s;
+  opacity: 0;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-.zoomIn2 {
-  animation: zoomInAnimation ease 5.7s 0.3s;
+.zoom-in-2 {
+  transform-origin: left center;
+  animation: zoomInAnimation cubic-bezier(0.22, 0.68, 0.05, 0.97) 5.7s 0.3s;
   opacity: 0;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -102,9 +118,6 @@ body {
   0% {
     opacity: 0;
   }
-  25% {
-    opacity: 0;
-  }
   100% {
     opacity: 0.75;
   }
@@ -112,18 +125,22 @@ body {
 
 @keyframes zoomInAnimation {
   0% {
-    transform: scale(0.9);
+    transform: scale(0.95);
     opacity: 0;
-  }
-  15% {
-    transform: scale(0.9);
-    opacity: 0;
-  }
-  70% {
-    opacity: 0.75;
   }
   100% {
     transform: scale(1);
-    opacity: 0.75;
+    opacity: 0.8;
+  }
+}
+
+@keyframes zoomInAnimation1 {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
   }
 }
