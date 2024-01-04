@@ -35,16 +35,16 @@ const App = () => {
   }, []);
 
   return (
-    <div className="h-full w-full bg-gray-900 flex justify-center items-center p-10">
+    <div className="h-full w-full gradient-background  flex justify-center items-center p-10">
       <div className="mb-28 flex flex-wrap justify-center gap-y-16 gap-x-32">
         <div>
-          <p className="my-2 text-white light opacity-80 fade-in-0 text-2xl">
+          <p className="my-2 text-white light opacity-80 fade-in-0 text-xl lg:text-2xl">
             Hello, I am
           </p>
-          <header className="text-white heavy zoom-in-1 text-7xl tracking-wider  select-none">
+          <header className="text-white heavy zoom-in-1 text-6xl lg:text-7xl tracking-wider select-none">
             Antonio
           </header>
-          <header className="text-white heavy opacity-75 zoom-in-2 text-7xl tracking-wider lg:mt-3 select-none">
+          <header className="text-white heavy opacity-75 zoom-in-2 text-6xl lg:text-7xl tracking-wider lg:mt-3 select-none">
             Rachele
           </header>
         </div>

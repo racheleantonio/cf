@@ -25,7 +25,7 @@ export const Tile = ({
       aria-label={name}
       href={link}
       target="blank"
-      className={`rounded-2xl h-24 w-24 neu grid place-content-center ${
+      className={`rounded-2xl h-20 lg:h-24 w-20 lg:w-24 neu grid place-content-center ${
         className ?? ""
       }`}
       onClick={trackButtonClick}

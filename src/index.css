@@ -17,6 +17,10 @@
   src: url(./assets/gilmer_regular.woff2), format("woff2");
 }
 
+.gradient-background {
+  background: url("./assets/background.svg") center/cover no-repeat;
+}
+
 html,
 body,
 #root {
@@ -59,7 +63,7 @@ body {
 
 .zoom-in-1 {
   transform-origin: left center;
-  animation: zoomInAnimation1 cubic-bezier(0.22, 0.68, 0.05, 0.97) 6s;
+  animation: zoomInAnimation1 cubic-bezier(0.22, 0.68, 0.05, 0.97) 7s;
   opacity: 0;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -67,7 +71,7 @@ body {
 
 .zoom-in-2 {
   transform-origin: left center;
-  animation: zoomInAnimation cubic-bezier(0.22, 0.68, 0.05, 0.97) 5.7s 0.3s;
+  animation: zoomInAnimation cubic-bezier(0.12, -0.03, 0, 1) 7s 0.3;
   opacity: 0;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -130,7 +134,7 @@ body {
   }
   100% {
     transform: scale(1);
-    opacity: 0.8;
+    opacity: 0.85;
   }
 }
 
@@ -141,6 +145,6 @@ body {
   }
   100% {
     transform: scale(1);
-    opacity: 0.6;
+    opacity: 0.55;
   }
 }
