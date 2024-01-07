@@ -7,7 +7,7 @@ import { ReactComponent as Telegram } from "./assets/full/telegram.svg";
 import { ReactComponent as RA } from "./assets/RA.svg";
 import { Tile } from "./components/Tile";
 import { useEffect } from "react";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 const data = [
   {
@@ -31,7 +31,6 @@ const App = () => {
   useEffect(() => {
     ReactGA.initialize("G-FE3M24CTLB");
     ReactGA.set({ page: window.location.pathname });
-    ReactGA.pageview(window.location.pathname);
   }, []);
 
   return (

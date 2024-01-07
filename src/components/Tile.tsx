@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 export const Tile = ({
   name,
@@ -15,9 +15,9 @@ export const Tile = ({
   const trackButtonClick = () => {
     console.log(name);
     ReactGA.event({
-      category: "Tile Click",
-      action: name,
-      label: name,
+      category: "tile-click",
+      action: name.toLocaleLowerCase(),
+      label: name.toLocaleLowerCase(),
     });
   };
   return (
