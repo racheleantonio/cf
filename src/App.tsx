@@ -1,6 +1,6 @@
 import { ReactComponent as Linkedin } from "./assets/full/linkedin.svg";
 import { ReactComponent as Github } from "./assets/full/github.svg";
-import { ReactComponent as Twitter } from "./assets/full/twitter.svg";
+import { ReactComponent as Twitter } from "./assets/full/x-twitter.svg";
 import { ReactComponent as Mail } from "./assets/full/mail.svg";
 import { ReactComponent as CV } from "./assets/full/resume.svg";
 import { ReactComponent as Telegram } from "./assets/full/telegram.svg";
